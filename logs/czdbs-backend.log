@@ -1,0 +1,64 @@
+2021-03-15 13:17:14,387  INFO 329 --- [main] CzDbsApplication       : Starting CzDbsApplication using Java 1.8.0_252 on rifaimartin with PID 329 (/home/rifaimartin/Documents/Cashlez Dev/DBS/DBS-BACKEND-BE/dbs-backend/target/classes started by rifaimartin in /home/rifaimartin/Documents/Cashlez Dev/DBS/DBS-BACKEND-BE/dbs-backend)
+2021-03-15 13:17:14,392  INFO 329 --- [main] CzDbsApplication       : The following profiles are active: stage
+2021-03-15 13:17:15,149  INFO 329 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-03-15 13:17:15,222  INFO 329 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 20 JPA repository interfaces.
+2021-03-15 13:17:15,478  INFO 329 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@250b236d' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-15 13:17:15,486  INFO 329 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-15 13:17:15,699  INFO 329 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8105 (http)
+2021-03-15 13:17:15,706  INFO 329 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-15 13:17:15,706  INFO 329 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-15 13:17:15,769  INFO 329 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2021-03-15 13:17:15,769  INFO 329 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1294 ms
+2021-03-15 13:17:15,935  INFO 329 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-15 13:17:15,951  INFO 329 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-03-15 13:17:15,987  INFO 329 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-15 13:17:16,030  INFO 329 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-03-15 13:17:16,229  INFO 329 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-15 13:17:16,308  INFO 329 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-15 13:17:16,491  WARN 329 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-15 13:17:16,666  INFO 329 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@76a14c8d, org.springframework.security.web.context.SecurityContextPersistenceFilter@513b52af, org.springframework.security.web.header.HeaderWriterFilter@3dc95b8b, org.springframework.security.web.authentication.logout.LogoutFilter@4086d8fb, com.cashlez.czdbs.security.JwtRequestFilter@56078cea, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3bed3315, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50448409, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@17410c07, org.springframework.security.web.session.SessionManagementFilter@1115433e, org.springframework.security.web.access.ExceptionTranslationFilter@35c9a231, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@261db982]
+2021-03-15 13:17:17,009  INFO 329 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8105 (http) with context path '/api'
+2021-03-15 13:17:17,011  INFO 329 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-03-15 13:17:17,475  INFO 329 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-15 13:17:17,511  INFO 329 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-03-15 13:17:21,123  INFO 329 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-15 13:17:21,137  INFO 329 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-15 13:17:21,907  INFO 329 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-03-15 13:17:21,917  INFO 329 --- [main] CzDbsApplication       : Started CzDbsApplication in 8.007 seconds (JVM running for 8.678)
+2021-03-15 13:17:55,675  INFO 329 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-15 13:17:55,679  INFO 329 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-03-15 13:17:55,680  INFO 329 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-15 13:17:55,680  INFO 329 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-03-15 13:17:55,683  INFO 329 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-03-15 13:17:59,844  INFO 546 --- [main] CzDbsApplication       : Starting CzDbsApplication using Java 1.8.0_252 on rifaimartin with PID 546 (/home/rifaimartin/Documents/Cashlez Dev/DBS/DBS-BACKEND-BE/dbs-backend/target/classes started by rifaimartin in /home/rifaimartin/Documents/Cashlez Dev/DBS/DBS-BACKEND-BE/dbs-backend)
+2021-03-15 13:17:59,847  INFO 546 --- [main] CzDbsApplication       : The following profiles are active: stage
+2021-03-15 13:18:00,595  INFO 546 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-03-15 13:18:00,689  INFO 546 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 20 JPA repository interfaces.
+2021-03-15 13:18:00,971  INFO 546 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@24fabd0f' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-15 13:18:00,979  INFO 546 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-15 13:18:01,151  INFO 546 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8105 (http)
+2021-03-15 13:18:01,157  INFO 546 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-15 13:18:01,157  INFO 546 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-15 13:18:01,208  INFO 546 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2021-03-15 13:18:01,209  INFO 546 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1286 ms
+2021-03-15 13:18:01,336  INFO 546 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-15 13:18:01,348  INFO 546 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-03-15 13:18:01,377  INFO 546 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-15 13:18:01,419  INFO 546 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-03-15 13:18:01,572  INFO 546 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-15 13:18:01,639  INFO 546 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-15 13:18:01,766  WARN 546 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-15 13:18:01,939  INFO 546 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7beae796, org.springframework.security.web.context.SecurityContextPersistenceFilter@45f756e6, org.springframework.security.web.header.HeaderWriterFilter@6f8aba08, org.springframework.security.web.authentication.logout.LogoutFilter@ea52184, com.cashlez.czdbs.security.JwtRequestFilter@6dd82486, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3003827c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@513b52af, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6749fe50, org.springframework.security.web.session.SessionManagementFilter@2d55e826, org.springframework.security.web.access.ExceptionTranslationFilter@37854b34, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4f4c88f9]
+2021-03-15 13:18:02,272  INFO 546 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8105 (http) with context path '/api'
+2021-03-15 13:18:02,274  INFO 546 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2021-03-15 13:18:02,766  INFO 546 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-15 13:18:02,797  INFO 546 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-03-15 13:18:05,845  INFO 546 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-15 13:18:05,867  INFO 546 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-15 13:18:06,601  INFO 546 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2021-03-15 13:18:06,611  INFO 546 --- [main] CzDbsApplication       : Started CzDbsApplication in 7.139 seconds (JVM running for 7.678)
+2021-03-15 15:51:30,079  INFO 546 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-15 15:51:30,084  INFO 546 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-03-15 15:51:30,085  INFO 546 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-15 15:51:30,086  INFO 546 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-03-15 15:51:30,100  INFO 546 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
